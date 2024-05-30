@@ -65,7 +65,7 @@
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <h2 class="text-primary font-weight-medium m-0">Mang hương vị ngọt ngào của quá khứ đến với hiện tại</h2>
                     <h1 class="display-1 text-white m-0">COFFE ĐỖ NGHĨA</h1>
-                    <h2 class="text-white m-0">* Kỷ niệm từ năm 2024 *</h2>
+                    <!-- <h2 class="text-white m-0">* Kỷ niệm từ năm 2024 *</h2> -->
                 </div>
             </div>
             <div class="carousel-item">
@@ -73,7 +73,7 @@
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <h2 class="text-primary font-weight-medium m-0">Hòa mình vào hương vị đích thực của quá khứ</h2>
                     <h1 class="display-1 text-white m-0">COFFE ĐỖ NGHĨA</h1>
-                    <h2 class="text-white m-0">* Kỷ niệm từ năm 2024 *</h2>
+                    <!-- <h2 class="text-white m-0">* Kỷ niệm từ năm 2024 *</h2> -->
                 </div>
             </div>
         </div>
@@ -280,69 +280,67 @@
     <!-- Menu End -->
 
 
-    <!-- Reservation Start -->
-    <div class="container-fluid my-5">
-        <div class="container">
-            <div class="reservation position-relative overlay-top overlay-bottom">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 my-5 my-lg-0">
-                        <div class="p-5">
-                            <div class="mb-4">
-                                <h1 class="display-3 text-primary">30% OFF</h1>
-                                <h1 class="text-white">For Online Reservation</h1>
-                            </div>
-                            <p class="text-white">Lorem justo clita erat lorem labore ea, justo dolor lorem ipsum ut sed eos,
-                                ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea</p>
-                            <ul class="list-inline text-white m-0">
-                                <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</li>
-                                <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</li>
-                                <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</li>
-                            </ul>
+<!-- Reservation Start -->
+<div class="container-fluid my-5">
+    <div class="container">
+        <div class="reservation position-relative overlay-top overlay-bottom">
+            <div class="row align-items-center">
+                <div class="col-lg-6 my-5 my-lg-0">
+                    <div class="p-5">
+                        <div class="mb-4">
+                            <h1 class="display-3 text-primary">GIẢM 30%</h1>
+                            <h1 class="text-white">Cho Đặt Bàn Online</h1>
                         </div>
+                        <p class="text-white">Cơ hội để bạn thưởng thức hương vị đặc biệt của cà phê Đỗ Nghĩa với ưu đãi đặc biệt khi đặt bàn trực tuyến. Hãy tận hưởng không gian thoải mái và hương vị tuyệt vời tại quán!</p>
+                        <ul class="list-inline text-white m-0">
+                            <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Hương vị cà phê độc đáo</li>
+                            <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Không gian thoải mái và ấm cúng</li>
+                            <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Phục vụ chuyên nghiệp và nhiệt tình</li>
+                        </ul>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="text-center p-5" style="background: rgba(51, 33, 29, .8);">
-                            <h1 class="text-white mb-4 mt-5">Book Your Table</h1>
-                            <form class="mb-5">
-                                <div class="form-group">
-                                    <input type="text" class="form-control bg-transparent border-primary p-4" placeholder="Name"
-                                        required="required" />
+                </div>
+                <div class="col-lg-6">
+                    <div class="text-center p-5" style="background: rgba(51, 33, 29, .8);">
+                        <h1 class="text-white mb-4 mt-5">Đặt Bàn Của Bạn</h1>
+                        <form class="mb-5">
+                            <div class="form-group">
+                                <input type="text" class="form-control bg-transparent border-primary p-4" placeholder="Họ và Tên" required="required" />
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control bg-transparent border-primary p-4" placeholder="Email" required="required" />
+                            </div>
+                            <div class="form-group">
+                                <div class="date" id="date" data-target-input="nearest">
+                                    <input type="text" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Ngày" data-target="#date" data-toggle="datetimepicker"/>
                                 </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control bg-transparent border-primary p-4" placeholder="Email"
-                                        required="required" />
+                            </div>
+                            <div class="form-group">
+                                <div class="time" id="time" data-target-input="nearest">
+                                    <input type="text" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Thời Gian" data-target="#time" data-toggle="datetimepicker"/>
                                 </div>
-                                <div class="form-group">
-                                    <div class="date" id="date" data-target-input="nearest">
-                                        <input type="text" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Date" data-target="#date" data-toggle="datetimepicker"/>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="time" id="time" data-target-input="nearest">
-                                        <input type="text" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Time" data-target="#time" data-toggle="datetimepicker"/>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <select class="custom-select bg-transparent border-primary px-4" style="height: 49px;">
-                                        <option selected>Person</option>
-                                        <option value="1">Person 1</option>
-                                        <option value="2">Person 2</option>
-                                        <option value="3">Person 3</option>
-                                        <option value="3">Person 4</option>
-                                    </select>
-                                </div>
-                                
-                                <div>
-                                    <button class="btn btn-primary btn-block font-weight-bold py-3" type="submit">Book Now</button>
-                                </div>
-                            </form>
-                        </div>
+                            </div>
+                            <div class="form-group">
+                                <select class="custom-select bg-transparent border-primary px-4" style="height: 49px;">
+                                    <option selected>Số Lượng Người</option>
+                                    <option value="1">1 Người</option>
+                                    <option value="2">2 Người</option>
+                                    <option value="3">3 Người</option>
+                                    <option value="4">4 Người</option>
+                                </select>
+                            </div>
+                            
+                            <div>
+                                <button class="btn btn-primary btn-block font-weight-bold py-3" type="submit">Đặt Ngay</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Reservation End -->
+</div>
+<!-- Reservation End -->
+
 
 
  <!-- Testimonial Start -->
@@ -399,53 +397,54 @@
 <!-- Testimonial End -->
 
 
-    <!-- Footer Start -->
-    <div class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
-        <div class="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Get In Touch</h4>
-                <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
-                <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
-                <p class="m-0"><i class="fa fa-envelope mr-2"></i>info@example.com</p>
+<!-- Footer Start -->
+<div class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
+    <div class="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Liên Hệ</h4>
+            <p><i class="fa fa-map-marker-alt mr-2"></i>123 Phố, Thành phố Hồ Chí Minh, Việt Nam</p>
+            <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
+            <p class="m-0"><i class="fa fa-envelope mr-2"></i>DoNghia@gmail.com</p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Theo Dõi Chúng Tôi</h4>
+            <p>Theo dõi chúng tôi trên mạng xã hội để cập nhật những thông tin mới nhất về cà phê Đỗ Nghĩa!</p>
+            <div class="d-flex justify-content-start">
+                <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-lg btn-outline-light btn-lg-square" href="#"><i class="fab fa-instagram"></i></a>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Follow Us</h4>
-                <p>Amet elitr vero magna sed ipsum sit kasd sea elitr lorem rebum</p>
-                <div class="d-flex justify-content-start">
-                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-lg btn-outline-light btn-lg-square" href="#"><i class="fab fa-instagram"></i></a>
-                </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Giờ Làm Việc</h4>
+            <div>
+                <h6 class="text-white text-uppercase">Thứ Hai - Thứ Sáu</h6>
+                <p>8.00 Sáng - 8.00 Tối</p>
+                <h6 class="text-white text-uppercase">Thứ Bảy - Chủ Nhật</h6>
+                <p>2.00 Chiều - 8.00 Tối</p>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Open Hours</h4>
-                <div>
-                    <h6 class="text-white text-uppercase">Monday - Friday</h6>
-                    <p>8.00 AM - 8.00 PM</p>
-                    <h6 class="text-white text-uppercase">Saturday - Sunday</h6>
-                    <p>2.00 PM - 8.00 PM</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Newsletter</h4>
-                <p>Amet elitr vero magna sed ipsum sit kasd sea elitr lorem rebum</p>
-                <div class="w-100">
-                    <div class="input-group">
-                        <input type="text" class="form-control border-light" style="padding: 25px;" placeholder="Your Email">
-                        <div class="input-group-append">
-                            <button class="btn btn-primary font-weight-bold px-3">Sign Up</button>
-                        </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Bản Tin</h4>
+            <p>Đăng ký nhận bản tin để không bỏ lỡ những thông tin mới nhất và những chương trình khuyến mãi hấp dẫn từ chúng tôi!</p>
+            <div class="w-100">
+                <div class="input-group">
+                    <input type="email" class="form-control border-light" style="padding: 25px;" placeholder="Nhập Email của bạn">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary font-weight-bold px-3">Đăng Ký</button>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container-fluid text-center text-white border-top mt-4 py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
-            <p class="mb-2 text-white">Copyright &copy; <a class="font-weight-bold" href="#">Domain</a>. All Rights Reserved.</a></p>
-            <p class="m-0 text-white">Designed by <a class="font-weight-bold" href="https://htmlcodex.com">HTML Codex</a></p>
-        </div>
     </div>
-    <!-- Footer End -->
+    <div class="container-fluid text-center text-white border-top mt-4 py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
+        <p class="mb-2 text-white">Bản quyền &copy; <a class="font-weight-bold" href="#">Cà Phê Đỗ Nghĩa</a>. Tất cả các quyền được bảo lưu.</a></p>
+        <p class="m-0 text-white">Thiết kế bởi <a class="font-weight-bold" href="#">Cộng Đồng HTML</a></p>
+    </div>
+</div>
+<!-- Footer End -->
+
 
 
     <!-- Back to Top -->
